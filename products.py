@@ -10,8 +10,7 @@ PRODUCTS = {
     "💥 VOZOL VISTA 💥": {
         "name":
         f"VOZOL VISTA (20000 затяжек)\n"
-        f"1.🍓🥭 клубника манго(нет в наличии)\n"
-        f"2.🍑🧊 персиковый лед\n"
+        f"1.🍑🧊 персиковый лед\n"
         f"Цена: 1149 ₽"
         ,
         "photos": "photos/vozol_vista.jpg",
@@ -31,13 +30,6 @@ PRODUCTS = {
         f"2.🫐 Blueberry Blackberry\n"
         f"Цена: 450 ₽",
         "photos": "photos/annima_love.jpg",
-        },
-    "🦔 Monstervapor Ice 7 % 🧊": {
-        "name": f"☃️🔥🌿 | Monstervapor Ice 7%\n"
-        f"Новый вкус свежести и прохлады: \n\n"
-        f"1.🥃🍋 Кола лимон лед(нет в наличии)\n"
-        f"Цена: 400 ₽",
-        "photos": "photos/monstervapor_ice.jpg",
         },
     "🌪️ VYEBON 🌪️": {
         "name": f"💥VYEBON💥  70 мг\n\n"
@@ -60,7 +52,6 @@ PRODUCTS = {
         f"1. 🍒 Клюква яблоко\n\n"
         f"2. 🍓 Малиновый лимонад\n\n"
         f"3. 🥭 Манго, пина колада\n\n"
-        f"4. ⚡ Энергетик с лесными ягодами(нет в наличии)\n"
         f"Цена: 400 ₽",
         "photos": "photos/anarchy.jpg",
         },
@@ -68,7 +59,7 @@ PRODUCTS = {
     "cartridges": {
         "🔒 XROS": {
             "name":
-            f"0,4 | 0,6 ом(нет в наличии)\n"
+            f"0,4 | 0,6 ом (нет в наличии)\n"
             f"Цена: 350 ₽",
             "photos": "photos/cartridge.jpg",
         },

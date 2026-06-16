@@ -1,7 +1,6 @@
 from configs import bot
 from telebot.types import Message, InlineKeyboardMarkup, InlineKeyboardButton
 
-
 @bot.message_handler(commands=['start'])
 def cmd_start(message: Message) -> None:
     keyboard = InlineKeyboardMarkup(row_width=2)
