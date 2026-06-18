@@ -1,4 +1,3 @@
-import netwrk_fix
 import time
 import logging
 from telebot import TeleBot
@@ -13,20 +12,19 @@ logging.basicConfig(
 )
 
 def run_bot():
-    while True:
-        try:
-            logging.info("🤖 Bot started polling...")
+    try:
+        logging.info("🤖 Bot started polling...")
 
-            bot.infinity_polling(
-                timeout=30,
-                long_polling_timeout=30,
-                skip_pending=True,
-                allowed_updates=["message", "callback_query"]
-            )
+        bot.infinity_polling(
+            timeout=10,
+            long_polling_timeout=10,
+            skip_pending=True,
+            allowed_updates=["message", "callback_query"]
+        )
 
-        except Exception as e:
-            logging.error(f"Polling crashed: {e}")
-            time.sleep(5)  # restart delay
+    except Exception as e:
+        logging.error(f"Polling crashed: {e}")
+        time.sleep(5)  # restart delay
 
 if __name__ == "__main__":
     run_bot()
