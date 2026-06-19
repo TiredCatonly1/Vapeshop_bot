@@ -1,9 +1,10 @@
-from products import PRODUCTS
+from utils.products_db import load_products
 from telebot.types import InlineKeyboardMarkup, InlineKeyboardButton
 
 def create_products_keyboard(category):
     keyboard = InlineKeyboardMarkup(row_width=2)
-    for product_name in PRODUCTS[category]:
+    products = load_products()
+    for product_name in products.get(category, {}):
         keyboard.add(
         InlineKeyboardButton(product_name, callback_data=f"prod|{category}|{product_name}")
         )

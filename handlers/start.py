@@ -10,7 +10,9 @@ def cmd_start(message: Message):
         keyboard.add(
             InlineKeyboardButton("💨 Одноразки", callback_data="cat|disposables"),
             InlineKeyboardButton("🧃 Жидкости", callback_data="cat|liquids"),
-            InlineKeyboardButton("🔋 Картриджи", callback_data="cat|cartridges")
+            InlineKeyboardButton("🔋 Картриджи", callback_data="cat|cartridges"),
+            InlineKeyboardButton("🧊 Снюс", callback_data="cat|snus"),
+            InlineKeyboardButton("⚡ POD-системы", callback_data="cat|pods")
         )
 
         text = (
